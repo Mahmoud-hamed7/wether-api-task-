@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/index.css">
+    <title>Document</title>
+</head>
+<body>
+    <!-- nav-sec-start -->
+    <div class="navo ">
+      <nav class="navbar navbar-expand-lg navbar-dark bg-opacity-100 navo-bg ">
+        <div class="container text-white ">
+          <a class=" fs-2 navbar-brand " href="#">Weather</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false"
+            aria-label="Toggle navigation">
+            <span class="fa-solid fa-sliders"></span>
+          </button>
+          <div class="collapse navbar-collapse " id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0 fs-5">
+              <div class="nav-parent position-relative">
+                <li class="nav-item">
+                  <a class="nav-link active  position-relative nav-af "
+                    aria-current="page" href="#">Home</a>
+                  <div class="nav-layer-1"></div>
+
+                </li>
+              </div>
+              <div class="nav-parent position-relative">
+
+                <li class="nav-item">
+                  <a class="nav-link active position-relative nav-af"
+                    aria-current="page" href="#">News</a>
+                </li>
+                <div class="nav-layer"></div>
+
+              </div>
+              <div class="nav-parent position-relative">
+
+                <li class="nav-item">
+                  <a class="nav-link active position-relative nav-af"
+                    aria-current="page" href="#">Live Camera</a>
+                </li>
+                <div class="nav-layer"></div>
+
+              </div>
+              <div class="nav-parent position-relative">
+
+                <li class="nav-item">
+                  <a class="nav-link active position-relative nav-af"
+                    aria-current="page" href="#">Photos</a>
+                </li>
+                <div class="nav-layer"></div>
+
+              </div>
+              <div class="nav-parent position-relative">
+
+                <li class="nav-item">
+                  <a class="nav-link active position-relative nav-af"
+                    aria-current="page" href="#">Contact</a>
+
+                </li>
+                <div class="nav-layer"></div>
+
+              </div>
+            
+
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+    </div>
+
+<!-- nav-sec-end -->
+
+
+
+
+<!-- first-page-start -->
+ <div class="first-page  vh-100">
+
+
+  <div class="first-sec">
+
+   
+
+    <div class="position-relative">
+    <div class="form-floating  w-75  mx-auto serch-bar position-relative ">
+      <input type="email"  class="serchBar  form-control" id="floatingInput" placeholder="">
+      <label for="floatingInput" >Find Your Location
+      </label>
+      <button  type="button" class=" btn btn-info serch-but   "  >Find</button>
+
+    </div>
+
+
+</div>
+    
+
+    <div class="second-sec">
+      <div class="container ">
+        <div class="row g-5 h-75  flex-lg-nowrap rowELment">
+         
+          <div class="col-md-4 m-1  text-white bg-secondary  colum1">
+           
+            <div class="item d-flex justify-content-between  flex-nowrap   rounded p-1">
+            
+              <p class="fw-bold text-warning m-2  lead" id="todayName">sunday</p>  
+              <div class="ite  d-flex ">
+                   <p class=" m-2 fw-bold text-warning  lead " id="today-history">21</p>
+                <p class="  m-2 fw-bold text-warning  lead " id="todayMounth">September</p>
+           </div>
+            </div>
+ 
+            <p class=" lead" id="country"></p>
+
+            <div class="item d-flex justify-content-between">
+              <h1 id="degree" >32.2^C</h1>
+
+              <img src="https://cdn.weatherapi.com/weather/64x64/night/116.png" class="w-25 d-block" alt="" id="firstDayIcon">
+
+            </div>
+            
+            
+            <!-- <i class="fa-regular fa-sun fw-bold lead fs-3 text-warning" id="" ></i> -->
+
+              <p class="fw-bold lead" id="todayCase">Partly cloudy</p>
+          
+
+                <div class="item d-flex justify-content-between">
+              <i class="fa-solid fa-umbrella " id="umbrella">  20 %</i>
+              <i class="fa-solid fa-wind" id="todayWind">  18  km/h</i>
+              <i class="fa-solid fa-hurricane" id="todayHurricane" > East</i>
+
+                </div>
+
+
+          </div>
+
+          <div class="col-md-4  m-1 text-white text-center colum2">
+           
+            <p class="fw-bold text-warning  lead secDayName ">sunday</p>  
+
+
+
+
+            <!-- <i class="fa-regular fa-sun fw-bold lead fs-3 text-warning  "></i> -->
+            <img src="Weather/icon-umberella.png" class="secDayIcon w-25    " alt="" > 
+            
+
+            <p class=" lead m-5"></p>
+
+            <h1 class="secDayDegree" >32.2^C</h1>
+            <p class="secDayWind" >23.9o</p>
+            
+
+              <p class="fw-bold lead sec-day-case ">Sunny</p>
+          
+
+              
+
+
+          </div>
+
+       
+
+
+          <div class="col-md-4  m-1 text-white text-center colum2">
+           
+            <p class="fw-bold text-warning  lead thirdDayName ">sunday</p>  
+
+
+
+
+            <!-- <i class="fa-regular fa-sun fw-bold lead fs-3 text-warning  "></i> -->
+            <img src="Weather/icon-umberella.png" class="thirdDayIcon w-25    " alt="" > 
+            
+
+            <p class=" lead m-5"></p>
+
+            <h1 class="thirdDayDegree" >32.2^C</h1>
+            <p class="thirdDayWind" >23.9o</p>
+            
+
+              <p class="fw-bold lead third-day-case ">Sunny</p>
+          
+
+              
+
+
+          </div>
+
+
+         
+
+        </div>
+       </div>
+    </div>
+
+  
+ </div>
+</div>
+ 
+<!-- first-page-end -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- footer-page-start -->
+<!-- 
+<div class="footer bg-secondary">
+  <div class=" item d-flex justify-content-around">
+    <div class="form-floating mb-3 w-50">
+      <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+      <label for="floatingInput">Email address</label>
+    </div>
+
+    <div class="icone-footer-parent position-relative">
+      <i class="fa-brands fa-facebook fs-2 align-self-center"></i>
+
+    <i class="fa-brands fa-twitter fs-2 align-self-center"></i>
+
+
+    <i class="fa-brands fa-linkedin fs-2 align-self-center"></i>
+
+    <i class="fa-brands fa-youtube fs-2 align-self-center"></i>
+  
+    <div class="layer"></div>
+  </div>
+    
+   
+
+  </div>
+
+  <p class=" text-white lead">Copyright 2014 Company name. Designed by Themezy. All rights reserved</p>
+</div> -->
+<!-- footer-page-end -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ <script src="js/bootstrap.bundle.js"></script>
+ <script src="js/index.js"></script>   
+</body>
+</html>

@@ -1,0 +1,136 @@
+p{
+    
+    font-family: "Nunito Sans", sans-serif;
+
+}
+
+h1,h2,h3,h4,h5,h6{
+    font-family: "Montserrat", sans-serif;
+}
+
+
+
+img{
+    width: 100%;
+    display: block;
+}
+ul{
+    list-style: none;
+}
+
+ /* nav bar start */
+ .navo-bg{
+    background-color: #1e202b;
+ }
+
+ .nav-layer{
+    width: 60px;
+    height: 4px;
+    background-color: #ffff;
+    position: absolute;
+    top: 75%;
+    left: -50px;
+    opacity: 0;
+    transition: all 0.5s;
+ }
+ .nav-parent:hover .nav-layer{
+    left: 5px;
+    opacity: 1  ;
+ }
+ .nav-layer-d{
+    width: 100px;
+    height: 5px;
+    background-color: #ffff;
+    position: absolute;
+    top: 75%;
+    left: -50px;
+    opacity: 0;
+    transition: all 0.5s;
+
+ }
+
+ .nav-parent:hover .nav-layer-d{
+    left: 5px;
+    opacity: 1  ;
+ }
+.nav-layer-1{
+    width: 60px;
+    height: 2px;
+    background-color: #ffff;
+    position: absolute;
+    top: 82%;
+    left: 0px;
+
+ }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ /* nav bar end */
+/* first page start */
+.first-page{
+    background-color: #10111a;
+}
+.first-sec{
+    background-image: url(../Weather/banner.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: 400px;
+    /* background-color: red; */
+}
+/*  first page end */
+
+.serch-bar{
+    position: relative;
+    top: 50px;
+}
+.serch-but{
+    position: absolute;
+    height: 90%;
+    width: 10%;
+    top: 5%;
+    /* left:0 ; */
+    right: 0;
+    /* bottom: 0; */
+}
+
+.second-sec{
+    position: relative;
+    top: 30%;
+}
+
+
+.colum2{
+    background-color: #1e202b;
+}
+
+.secDayIcon{
+    width: 50px;
+    position: relative;
+    left: 40%;
+}
+
+
+.thirdDayIcon{
+    width: 50px;
+    position: relative;
+    left: 40%;
+}
